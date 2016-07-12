@@ -1,0 +1,42 @@
+{
+  "revision": "abcd1234",
+  "timestamp": "1472405553",
+  "apks": [
+    {
+      "name": "package-installer.apk",
+      "url": "https://github.org/tomasen/gapps/arm/pico/apks/package-installer.apk",
+      "size": 86213432,
+      "md5": "1234abcd1234abcd",
+      "order": 1
+    },
+    {
+      "name": "play-store.apk",
+      "url": "https://github.org/tomasen/gapps/arm/pico/apks/play-store.apk",
+      "size": 86213432,
+      "md5": "1234abcd1234abcd",
+      "order": 2
+    }
+  ],
+  "shells": [
+    {
+      "name": "installjni.sh",
+      "url": "https://github.org/tomasen/gapps/arm/pico/shells/installjni.sh",
+      "files": [
+        {
+          "url": "https://github.org/tomasen/gapps/arm/pico/shells/jnisystem.so",
+          "install": "/system/jnisystem.so",
+          "size": 826432,
+          "md5": "1234abcd1234abcd",
+          "root": true
+        },
+        {
+          "url": "https://github.org/tomasen/gapps/arm/pico/shells/jniplay.so",
+          "install": "/system/jniplay.so",
+          "size": 826432,
+          "md5": "1234abcd1234abcd",
+          "root": true
+        }
+      ]
+    }
+  ]
+}
