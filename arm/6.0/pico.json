@@ -5,6 +5,7 @@
     {
       "name": "package-installer.apk",
       "url": "https://github.org/tomasen/gapps/arm/pico/apks/package-installer.apk",
+      "package": "com.android.google.package.installer(//extract from androidmanifest.xml file inside apk)",
       "size": 86213432,
       "md5": "1234abcd1234abcd",
       "order": 1
@@ -12,6 +13,7 @@
     {
       "name": "play-store.apk",
       "url": "https://github.org/tomasen/gapps/arm/pico/apks/play-store.apk",
+      "package": "com.android.google.store.play",
       "size": 86213432,
       "md5": "1234abcd1234abcd",
       "order": 2
